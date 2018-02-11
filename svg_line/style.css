@@ -1,0 +1,40 @@
+body{
+  font-family: sans-serif;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 2em;
+  margin: 0;
+
+}
+
+.deel {
+  padding: 2em;
+  position: relative;
+
+}
+
+.deel__kader {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.deel__rechthoek {
+  stroke: deepskyblue;
+  stroke-width: 10px;
+  fill: transparent;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+span{
+  color: deepskyblue;
+}
+footer {width: 100%;
+   padding: 1em 0px;
+   text-align: center;
+   background-color: black;
+   color: white;
+   position: fixed;
+   bottom: 0;
+   border-top: 2px solid deepskyblue;
+}
